@@ -1,27 +1,41 @@
-# Welcome to React Router!
+# Travel Agency Dashboard
 
-A modern, production-ready template for building full-stack React applications using React Router.
+Welcome to the **Travel Agency Dashboard**! This project is designed to provide a modern and interactive dashboard for managing travel agency operations. It leverages the power of **TypeScript**, **Docker**, and **CSS** to deliver a scalable and user-friendly experience.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+## 🚀 Features
 
-## Features
+- **Dynamic Dashboard:** Manage key metrics and data for your travel agency in real-time.
+- **TypeScript Driven:** Strongly-typed codebase for maintainability and scalability.
+- **Dockerized Setup:** Easy deployment using Docker for consistent and isolated environments.
+- **Custom Styling:** Enhanced and responsive user interface built with CSS.
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+## 🛠️ Technologies Used
 
-## Getting Started
+- **TypeScript (88.5%)**: The core programming language used for the application.
+- **Dockerfile (7.7%)**: Simplifies deployment and environment configuration.
+- **CSS (3.8%)**: For styling and ensuring a modern and responsive design.
+
+## 📂 Project Structure
+
+```plaintext
+├── src/                    # Source code for the application
+│   ├── components/         # Reusable UI components
+│   ├── pages/              # Page-level components
+│   ├── services/           # API and data management logic
+│   ├── utils/              # Utility functions
+│   └── assets/             # Images, icons, and other static resources
+├── Dockerfile              # Docker configuration
+├── public/                 # Public resources (e.g., index.html)
+├── styles/                 # Global and modular CSS files
+└── README.md               # Project documentation
 
 ### Installation
 
 Install the dependencies:
 
 ```bash
-npm install
+git clone https://github.com/ritikdevelop/Travel-Agency-Dashboard.git
+cd Travel-Agency-Dashboard
 ```
 
 ### Development
@@ -29,7 +43,9 @@ npm install
 Start the development server with HMR:
 
 ```bash
-npm run dev
+npm install
+# or
+yarn install
 ```
 
 Your application will be available at `http://localhost:5173`.
@@ -39,7 +55,9 @@ Your application will be available at `http://localhost:5173`.
 Create a production build:
 
 ```bash
-npm run build
+npm start
+# or
+yarn start
 ```
 
 ## Deployment
